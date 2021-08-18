@@ -14,9 +14,9 @@
 
     <EditText
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="이메일 양식으로 입력"
-        android:inputType="textEmailAddress"
-        android:layout_height="wrap_content" />
+        android:inputType="textEmailAddress"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,6 +40,40 @@
         android:singleLine="true"
         android:imeOptions="actionSearch"
         android:hint="닉네임 입력후 검색" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공개 안함" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용 약관에 동의합니다." />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가입 확인" />
 
 
 </LinearLayout>
