@@ -70,6 +70,12 @@
         android:checked="true"
         android:text="이용 약관에 동의합니다." />
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/githublogo_22" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
