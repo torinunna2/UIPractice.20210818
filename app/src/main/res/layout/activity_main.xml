@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="bottom|right"
     tools:context=".MainActivity">
 
     <TextView
@@ -70,11 +71,21 @@
         android:checked="true"
         android:text="이용 약관에 동의합니다." />
 
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:gravity="center">
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:scaleType="centerInside"
-        android:src="@drawable/githublogo_22" />
+        android:src="@drawable/nep_22" />
+
+</LinearLayout>
 
     <Button
         android:layout_width="match_parent"
